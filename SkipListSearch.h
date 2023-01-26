@@ -8,5 +8,6 @@ public:
     int level;
     vector<Node *> ArrNodes;
     void CreateNode(int data, Node *Back, int cur_level);
+    void LinkNode(Node *Back, Node *New_link, int cur_level);
     void Insert(int data, int level);
 };
